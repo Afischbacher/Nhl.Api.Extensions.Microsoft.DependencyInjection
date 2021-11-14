@@ -2,11 +2,12 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
+		<PackageId>Nhl.Api.Extensions.Microsoft.DependencyInjection</PackageId>
+		<Title>Nhl.Api.Extensions.Microsoft.DependencyInjection</Title>
 		<Description>The official unofficial Nhl.Api Microsoft .NET dependency injection extension library</Description>
 		<Copyright>Copyright (c) 2021 Andre Fischbacher</Copyright>
 		<Authors>Andre Fischbacher</Authors>
 		<Version>1.3.0</Version>
-
 		<Description>The Microsoft .NET dependency injection library extension for the official unofficial .NET NHL API</Description>
 		<TargetFrameworks>netstandard2.0</TargetFrameworks>
 		<AssemblyName>Nhl.Api.Extensions.Microsoft.DependencyInjection</AssemblyName>
