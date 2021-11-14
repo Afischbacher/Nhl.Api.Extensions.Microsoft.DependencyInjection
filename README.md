@@ -1,5 +1,5 @@
-[![Build/Test](https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/actions/workflows/build-master.yml/badge.svg)](https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/actions/workflows/master-build.yml)
-[![Build/Test](https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/actions/workflows/build-develop.yml/badge.svg)](https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/actions/workflows/develop-build.yml)
+[![Build/Test](https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/actions/workflows/build-master.yml/badge.svg)](https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/actions/workflows/build-master.yml)
+[![Build/Test](https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/actions/workflows/build-develop.yml/badge.svg)](https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/actions/workflows/build-develop.yml)
 [![NuGet](https://img.shields.io/nuget/v/Nhl.Api)](https://www.nuget.org/packages/Nhl.Api.Extensions.Microsoft.DependencyInjection)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/graphs/commit-activity)
 
