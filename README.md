@@ -1,7 +1,7 @@
 # Nhl.Api.Extensions.Microsoft.DependencyInjection 🧑‍💻
 The Microsoft .NET dependency injection library extension for the official unofficial .NET NHL API  🏒
 
-An extension for the Nhl.Api to easily add it to any .NET project using the built in .NET dependency injection library
+An extension for the Nhl.Api to easily add the Nhl.Api library to any .NET project using the built in .NET dependency injection library
 
 ## Installing Nhl.Api.Extensions.Microsoft.DependencyInjection 💭
 You should install Nhl.Api.Extensions.Microsoft.DependencyInjection with NuGet:
