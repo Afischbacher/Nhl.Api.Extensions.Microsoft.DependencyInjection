@@ -2,7 +2,6 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
-		<PackageId>Nhl.Api.Extensions.Microsoft.DependencyInjection</PackageId>
 		<Title>Nhl.Api.Extensions.Microsoft.DependencyInjection</Title>
 		<Description>The official unofficial Nhl.Api Microsoft .NET dependency injection extension library</Description>
 		<Copyright>Copyright (c) 2021 Andre Fischbacher</Copyright>
@@ -13,12 +12,8 @@
 		<AssemblyName>Nhl.Api.Extensions.Microsoft.DependencyInjection</AssemblyName>
 		<PackageId>Nhl.Api.Extensions.Microsoft.DependencyInjection</PackageId>
 		<PackageTags>C# .NET NHL Hockey Statistics Analysis Dependency-Injection</PackageTags>
-		<MinVerTagPrefix>v</MinVerTagPrefix>
 		<RepositoryType>Github</RepositoryType>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PublishRepositoryUrl>true</PublishRepositoryUrl>
-		<IncludeSymbols>true</IncludeSymbols>
-		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<PackageIcon>nhl-api-logo-128px-128px.png</PackageIcon>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
