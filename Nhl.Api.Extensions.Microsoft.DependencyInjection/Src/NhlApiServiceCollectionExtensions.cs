@@ -21,7 +21,7 @@ namespace Nhl.Api.Extensions.Microsoft.DependencyInjection
                 case ServiceLifetime.Singleton:
                     services.AddSingleton<INhlApi, NhlApi>();
                     break;
-
+                     
                 case ServiceLifetime.Scoped:
                     services.AddScoped<INhlApi, NhlApi>();
                     break;
