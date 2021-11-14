@@ -33,3 +33,7 @@ builder.Services.AddNhlApi(serviceLifetime: ServiceLifetime.Singleton);
 ```
 builder.Services.AddNhlApi(serviceLifetime: ServiceLifetime.Scoped);
 ```
+
+## Bugs 🐛
+If you have any issues with the library or suggestions, please feel free to create an issue and it will be adressed as soon as possible :)
+
