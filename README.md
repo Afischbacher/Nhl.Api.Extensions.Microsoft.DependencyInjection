@@ -1,3 +1,7 @@
+[![Build/Test](https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/actions/workflows/build-master.yml/badge.svg)](https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/actions/workflows/master-build.yml)
+[![Build/Test](https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/actions/workflows/build-develop.yml/badge.svg)](https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/actions/workflows/develop-build.yml)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection/graphs/commit-activity)
+
 # Nhl.Api.Extensions.Microsoft.DependencyInjection 🧑‍💻
 The Microsoft .NET dependency injection library extension for the official unofficial .NET NHL API  🏒
 
