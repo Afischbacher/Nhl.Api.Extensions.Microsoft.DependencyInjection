@@ -24,7 +24,7 @@ namespace Nhl.Api.Extensions.Microsoft.DependencyInjection
                      
                 case ServiceLifetime.Scoped:
                     services.AddScoped<INhlApi, NhlApi>();
-                    break;
+                    break; 
 
                 case ServiceLifetime.Transient:
                     services.AddTransient<INhlApi, NhlApi>();
