@@ -20,14 +20,26 @@ namespace Nhl.Api.Extensions.Microsoft.DependencyInjection
             {
                 case ServiceLifetime.Singleton:
                     services.AddSingleton<INhlApi, NhlApi>();
+                    services.AddSingleton<INhlPlayerApi, NhlPlayerApi>();
+                    services.AddSingleton<INhlLeagueApi, NhlLeagueApi>();
+                    services.AddSingleton<INhlGameApi, NhlGameApi>();
+                    services.AddSingleton<INhlStatisticsApi, NhlStatisticsApi>();
                     break;
-                     
+
                 case ServiceLifetime.Scoped:
                     services.AddScoped<INhlApi, NhlApi>();
+                    services.AddScoped<INhlPlayerApi, NhlPlayerApi>();
+                    services.AddScoped<INhlLeagueApi, NhlLeagueApi>();
+                    services.AddScoped<INhlGameApi, NhlGameApi>();
+                    services.AddScoped<INhlStatisticsApi, NhlStatisticsApi>();
                     break;
 
                 case ServiceLifetime.Transient:
                     services.AddTransient<INhlApi, NhlApi>();
+                    services.AddTransient<INhlPlayerApi, NhlPlayerApi>();
+                    services.AddTransient<INhlLeagueApi, NhlLeagueApi>();
+                    services.AddTransient<INhlGameApi, NhlGameApi>();
+                    services.AddTransient<INhlStatisticsApi, NhlStatisticsApi>();
                     break;
             }
 
