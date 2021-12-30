@@ -5,7 +5,7 @@
 		<Description>The official unofficial Nhl.Api Microsoft .NET dependency injection extension library</Description>
 		<Copyright>Copyright (c) 2021 Andre Fischbacher</Copyright>
 		<Authors>Andre Fischbacher</Authors>
-		<Version>1.7.0</Version>
+		<Version>1.8.0</Version>
 		<PackageProjectUrl>https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection</RepositoryUrl>
 		<Description>The Microsoft .NET dependency injection library extension for the official unofficial .NET NHL API</Description>
