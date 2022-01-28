@@ -13,7 +13,7 @@ namespace Nhl.Api.Extensions.Microsoft.DependencyInjection
         /// <param name="services">The collection of services from the <see cref="IServiceCollection"/></param>
         /// <param name="serviceLifetime">The type of service lifetime the Nhl.Api will be injected into the <see cref="IServiceCollection"/> </param>
         /// <returns>Returns an updated <see cref="IServiceCollection"/> with the Nhl.Api included</returns>
-        public static IServiceCollection AddNhlApi(this IServiceCollection services, ServiceLifetime serviceLifetime = ServiceLifetime.Transient)
+        public static IServiceCollection AddNhlApi(this IServiceCollection services, ServiceLifetime serviceLifetime = ServiceLifetime.Singleton)
         {
 
             switch (serviceLifetime)
