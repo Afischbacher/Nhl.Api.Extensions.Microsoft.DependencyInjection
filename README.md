@@ -27,13 +27,13 @@ builder.Services.AddNhlApi();
 
 You can also use a method parameter to specify the type of dependency life time
 
-### Transient (Default)
-```
-builder.Services.AddNhlApi(serviceLifetime: ServiceLifetime.Transient);
-```
-### Singleton  
+### Singleton (Default)
 ```
 builder.Services.AddNhlApi(serviceLifetime: ServiceLifetime.Singleton);
+```
+### Transient
+```
+builder.Services.AddNhlApi(serviceLifetime: ServiceLifetime.Transient);
 ```
 ### Scoped
 ```
