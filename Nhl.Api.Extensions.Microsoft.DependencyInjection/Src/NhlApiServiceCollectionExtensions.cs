@@ -15,7 +15,6 @@ namespace Nhl.Api.Extensions.Microsoft.DependencyInjection
         /// <returns>Returns an updated <see cref="IServiceCollection"/> with the Nhl.Api included</returns>
         public static IServiceCollection AddNhlApi(this IServiceCollection services, ServiceLifetime serviceLifetime = ServiceLifetime.Singleton)
         {
-
             switch (serviceLifetime)
             {
                 case ServiceLifetime.Singleton:
