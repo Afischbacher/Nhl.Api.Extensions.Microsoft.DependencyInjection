@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+		<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
 		<Title>Nhl.Api.Extensions.Microsoft.DependencyInjection</Title>
 		<Description>The official unofficial Nhl.Api Microsoft .NET dependency injection extension library</Description>
 		<Copyright>Copyright (c) 2023 Andre Fischbacher</Copyright>
