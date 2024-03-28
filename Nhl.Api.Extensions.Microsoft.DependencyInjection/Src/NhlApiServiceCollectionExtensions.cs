@@ -35,7 +35,7 @@ namespace Nhl.Api.Extensions.Microsoft.DependencyInjection
 
                 case ServiceLifetime.Transient:
                     services.AddTransient<INhlApi, NhlApi>();
-                    services.AddTransient<INhlPlayerApi, NhlPlayerApi>();
+                    services.AddTransient<INhlPlayerApi, NhlPlayerApi>(); 
                     services.AddTransient<INhlLeagueApi, NhlLeagueApi>();
                     services.AddTransient<INhlGameApi, NhlGameApi>();
                     services.AddTransient<INhlStatisticsApi, NhlStatisticsApi>();
