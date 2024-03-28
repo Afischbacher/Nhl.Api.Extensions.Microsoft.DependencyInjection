@@ -22,7 +22,7 @@ namespace Nhl.Api.Extensions.Microsoft.DependencyInjection
                     services.AddSingleton<INhlPlayerApi, NhlPlayerApi>();
                     services.AddSingleton<INhlLeagueApi, NhlLeagueApi>();
                     services.AddSingleton<INhlGameApi, NhlGameApi>(); 
-                    services.AddSingleton<INhlStatisticsApi, NhlStatisticsApi>();
+                    services.AddSingleton<INhlStatisticsApi, NhlStatisticsApi>(); 
                     break;
 
                 case ServiceLifetime.Scoped:
