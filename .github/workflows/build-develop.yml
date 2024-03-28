@@ -12,7 +12,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        fetch-depth: 0
+        fetch-depth: 2
     
     - name: Setup .NET 8
       uses: actions/setup-dotnet@v1
@@ -28,7 +28,7 @@ jobs:
     - name: Calculate Build Version
       uses: paulhatch/semantic-version@v5.3.0
       with:
-        tag_prefix: "v"
+        tag_prefix: "v" 
         major_pattern: "(MAJOR)"
         major_regexp_flags: ""
         minor_pattern: "(MINOR)"
