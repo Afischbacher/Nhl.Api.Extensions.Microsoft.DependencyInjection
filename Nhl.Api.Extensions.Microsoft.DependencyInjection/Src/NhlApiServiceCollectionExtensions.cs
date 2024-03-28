@@ -5,7 +5,7 @@ namespace Nhl.Api.Extensions.Microsoft.DependencyInjection
     /// <summary>
     /// The extensions for the Nhl.Api for Microsoft Dependency Injection
     /// </summary> 
-    public static class NhlApiServiceCollectionExtensions 
+    public static class NhlApiServiceCollectionExtensions
     {
         /// <summary>
         /// Register's the Nhl.Api to the <see cref="IServiceCollection"/> for usage within the Microsoft dependency injection library
@@ -21,8 +21,8 @@ namespace Nhl.Api.Extensions.Microsoft.DependencyInjection
                     services.AddSingleton<INhlApi, NhlApi>();
                     services.AddSingleton<INhlPlayerApi, NhlPlayerApi>();
                     services.AddSingleton<INhlLeagueApi, NhlLeagueApi>();
-                    services.AddSingleton<INhlGameApi, NhlGameApi>(); 
-                    services.AddSingleton<INhlStatisticsApi, NhlStatisticsApi>(); 
+                    services.AddSingleton<INhlGameApi, NhlGameApi>();
+                    services.AddSingleton<INhlStatisticsApi, NhlStatisticsApi>();
                     break;
 
                 case ServiceLifetime.Scoped:
