@@ -21,7 +21,7 @@ namespace Nhl.Api.Extensions.Microsoft.DependencyInjection
                     services.AddSingleton<INhlApi, NhlApi>();
                     services.AddSingleton<INhlPlayerApi, NhlPlayerApi>();
                     services.AddSingleton<INhlLeagueApi, NhlLeagueApi>();
-                    services.AddSingleton<INhlGameApi, NhlGameApi>();
+                    services.AddSingleton<INhlGameApi, NhlGameApi>(); 
                     services.AddSingleton<INhlStatisticsApi, NhlStatisticsApi>();
                     break;
 
