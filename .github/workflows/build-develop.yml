@@ -33,7 +33,7 @@ jobs:
         major_regexp_flags: ""
         minor_pattern: "(MINOR)"
         minor_regexp_flags: ""
-        version_format: "${major}.${minor}.${patch}-prerelease${increment}"
+        version_format: "${major}.${minor}.${patch}-pre-version-${increment}"
         bump_each_commit: true
         bump_each_commit_patch_pattern: "(PATCH)"
         search_commit_body: false
