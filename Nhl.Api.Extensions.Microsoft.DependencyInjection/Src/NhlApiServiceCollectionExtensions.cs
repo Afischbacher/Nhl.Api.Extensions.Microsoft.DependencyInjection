@@ -3,7 +3,7 @@
 namespace Nhl.Api.Extensions.Microsoft.DependencyInjection
 {
     /// <summary>
-    /// The extensions for the Nhl.Api for Microsoft Dependency Injection
+    /// The extensions for the Nhl.Api for Microsoft Dependency Injection for .NET
     /// </summary> 
     public static class NhlApiServiceCollectionExtensions
     {
