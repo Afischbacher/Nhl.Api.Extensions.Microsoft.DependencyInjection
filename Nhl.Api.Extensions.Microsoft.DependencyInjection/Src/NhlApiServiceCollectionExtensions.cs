@@ -8,7 +8,7 @@ namespace Nhl.Api.Extensions.Microsoft.DependencyInjection
     public static class NhlApiServiceCollectionExtensions
     {
         /// <summary>
-        /// Register's the Nhl.Api to the <see cref="IServiceCollection"/> for usage within the Microsoft dependency injection library
+        /// Register's the Nhl.Api to the <see cref="IServiceCollection"/> for usage within the Microsoft dependency injection library for .NET
         /// </summary>
         /// <param name="services">The collection of services from the <see cref="IServiceCollection"/></param>
         /// <param name="serviceLifetime">The type of service lifetime the Nhl.Api will be injected into the <see cref="IServiceCollection"/> </param>
