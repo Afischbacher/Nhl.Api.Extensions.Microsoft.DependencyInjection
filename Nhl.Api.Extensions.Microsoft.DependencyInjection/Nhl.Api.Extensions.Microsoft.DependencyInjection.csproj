@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net8.0</TargetFrameworks>
+		<TargetFrameworks>net9.0</TargetFrameworks>
 		<Title>Nhl.Api.Extensions.Microsoft.DependencyInjection</Title>
 		<Description>The official unofficial Nhl.Api Microsoft .NET dependency injection extension library</Description>
-		<Copyright>Copyright (c) 2024 Andre Fischbacher</Copyright>
+		<Copyright>Copyright (c) 2025 Andre Fischbacher</Copyright>
 		<Authors>Andre Fischbacher</Authors>
-		<Version>3.6.1</Version>
+		<Version>3.7.0</Version>
 		<PackageProjectUrl>https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Afischbacher/Nhl.Api.Extensions.Microsoft.DependencyInjection</RepositoryUrl>
 		<Description>The Microsoft .NET dependency injection library extension for the official unofficial .NET NHL API</Description>
@@ -40,7 +40,7 @@
 
 	</Target>
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
-		<PackageReference Include="Nhl.Api" Version="3.6.1" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.2" />
+		<PackageReference Include="Nhl.Api" Version="3.7.0" />
 	</ItemGroup>
 </Project>
